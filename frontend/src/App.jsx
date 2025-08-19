@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage'
 import CallPage from './pages/CallPage'
 import { Navigate, Route , Routes} from 'react-router-dom'
 import LoginPage from './pages/LoginPage'
-import SignupPage from './pages/SignupPage'
+import SignupPage from './pages/SignUpPage'
 import NotificationPage from './pages/NotificationPage'
 import ChatPage from './pages/ChatPage'
 import OnboardingPage from "./pages/OnboardingPage"
