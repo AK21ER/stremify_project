@@ -16,7 +16,7 @@ const port=process.env.PORT;
 const __dirname= path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5173", // this allows the backend to accept request from this url
+    origin: process.env.FRONTEND_URL, // this allows the backend to accept request from this url this makes it to be dynamic as it is setted "http://localhost:5173" better than saying this
     credentials: true // allow frontedn to send cookies
 }))
 
